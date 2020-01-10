@@ -2,7 +2,7 @@
 
 An alternative to the default OrbitControls provided by THREE.js examples.
 
-Live demo can be found [here](https://ronenness.github.io/SimpleOrbitControls/demo/index.html).
+Live demo can be found [here](https://ronenness.github.io/SimpleOrbitControls/demo/).
 
 # What Is It
 
