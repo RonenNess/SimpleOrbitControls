@@ -20,12 +20,12 @@ var controls = new THREE.SimpleOrbitControls(renderer, scene, camera);
 
 // call this every update call:
 var controllerInput = {
-	deltaTime: deltaTime, 									// time passed, in seconds, since last update call
-	rotateHorizontally: rotateHorizontally, 			// rotation around y axis
-	rotateVertically: rotateVertically,						// rotate vertically around x / z axis
-	moveOffsetVertically: moveY,							// move the target offset (affect lookat AND camera position), along camera's Y axis. 
-	moveOffsetHorizontally: moveXZ,					// move the target offset left / right, relative to camera's world direction.
-	zoom: zoom,													// zoom in / out
+    deltaTime: deltaTime,                                      // time passed, in seconds, since last update call
+    rotateHorizontally: rotateHorizontally,                    // rotation around y axis
+    rotateVertically: rotateVertically,                        // rotate vertically around x / z axis
+    moveOffsetVertically: moveY,                               // move the target offset (affect lookat AND camera position), along camera's Y axis. 
+    moveOffsetHorizontally: moveXZ,                            // move the target offset left / right, relative to camera's world direction.
+    zoom: zoom,                                                // zoom in / out
 }
 controls.update(controllerInput);
 ```
