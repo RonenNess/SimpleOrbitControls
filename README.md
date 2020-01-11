@@ -8,7 +8,7 @@ Live demo can be found [here](https://ronenness.github.io/SimpleOrbitControls/de
 
 THREE.js examples comes with a great [Orbit Camera Controller](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/OrbitControls.js). 
 
-While its very useful and a good starting point, I had issues with the fact that it register to events internally instead of allowing for external controls, and couldn't get the right feel I wanted with they way it lerps movement.
+While its very useful and a good starting point, I wanted something slightly different, mainly a controller that don't interact with events internally (and instead being controlled from outside) and wanted to use Lerping instead of delta and damping, which feels different imo.
 
 So I created this class instead, rewritten from scratch. Its a shorter, more basic implementation, which I believe is easier to understand and modify to more specific needs. 
 
