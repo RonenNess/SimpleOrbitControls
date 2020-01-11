@@ -3,7 +3,8 @@
 An alternative to the default OrbitControls provided by THREE.js examples.
 
 Live demo can be found [here](https://ronenness.github.io/SimpleOrbitControls/demo/).
-Note: demo only works on desktop; to use on mobile you need to register to touch events and provide them as input (see usage for more info).
+
+`Note: demo only works on desktop; to use on mobile you need to register to touch events and provide them as input (see usage for more info).`
 
 # What Is It
 
