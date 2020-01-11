@@ -8,7 +8,7 @@ Live demo can be found [here](https://ronenness.github.io/SimpleOrbitControls/de
 
 THREE.js examples comes with a great [Orbit Camera Controller](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/OrbitControls.js). 
 
-While its very useful and a good starting point, I found this implementation to be a bit too convoluted, and I had issues with the fact that it register to events internally instead of allowing for external controls.
+While its very useful and a good starting point, I had issues with the fact that it register to events internally instead of allowing for external controls, and couldn't get the right feel I wanted with they way it lerps movement.
 
 So I created this class instead, rewritten from scratch. Its a shorter, more basic implementation, which I believe is easier to understand and modify to more specific needs. 
 
