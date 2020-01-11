@@ -14,11 +14,13 @@ So I created this class instead, rewritten from scratch. Its a shorter, more bas
 
 # Usage
 
+SimpleOrbitControls does not register to any browser events **by design**. That means that you need to implement that part on your own and provide input commands every update call:
+
 ```js
 // create the orbit controller
 var controls = new THREE.SimpleOrbitControls(renderer, scene, camera);
 
-// call this every update call:
+// inside your main loop, call this every update call:
 var controllerInput = {
     deltaTime: deltaTime,                                      // time passed, in seconds, since last update call
     rotateHorizontally: rotateHorizontally,                    // rotation around y axis
